@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todos App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="stickyTop">
+        <h1>Todos App</h1>
+        <form id="searchText">
+          <input type="text" name="search" id="searchInput" placeholder="Search items" />
+        </form>
+        <div class="clearfix"></div>
+        <p>Maximize your time daily and get started ⏰</p>
+        <form class="data-input">
+          <input type="text" name="input" id="input" placeholder="What's your main focus for today?" />
+          <input type="submit" id="addItem" value="Write ✍" />
+        </form>
+        <small class="msg"></small>
+      </div>
+      <div id="main">
+        <ul class="list-group"></ul>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
